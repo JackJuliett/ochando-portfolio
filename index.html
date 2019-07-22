@@ -12,10 +12,10 @@
 
 <body>
   <header>
-    <div>
-      <a href="index.html"><img src="img/ochando_logo.svg" alt="Ochando"></a>
+    <div class="container">
+      <a href="index.html"><img class="logo" src="img/ochando_logo.svg" alt="Ochando"></a>
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -25,22 +25,24 @@
   </header>
 
   <main>
-    <div>
-      <div>
+    <div id="hero">
+      <div class="container">
         <h1>Hi, my name is Javier Ochando.<span> I’m a UX Designer whith a Graphic Design background based in London.</span> </h1>
-        <p>Several years solving graphic problems fed my curiosity towards User Experience as a whole. Now I create good relationships between users and products.</p>
+        <p class="center">Several years solving graphic problems fed my curiosity towards User Experience as a whole. Now I create good relationships between users and products.</p>
       </div>
     </div>
 
-    <div>
-      <div>
+    <div id="work">
+      <div class="container">
         <h2>My work</h2>
-        <div>
+        <div class=row>
           <div>
-            <a href="inktank.html"><picture>
-              <source srcset="img/InkTank/hero_mobile.jpg" media="(max-width:767px)">
-              <img src="img/InkTank/Hero.jpg" alt="My Image">
-            </picture></a>
+            <a href="inktank.html">
+              <picture>
+                <source srcset="img/InkTank/hero_mobile.jpg" media="(max-width:767px)">
+                <img src="img/InkTank/Hero.jpg" alt="My Image">
+              </picture>
+            </a>
           </div>
           <div>
             <h3>InkTank</h3>
@@ -53,7 +55,7 @@
   </main>
 
   <footer id="contact">
-    <div>
+    <div class="container">
       <h2>Get in Touch</h2>
       <p>
         Do you like my work and want to discuss opportunities? Please get in touch.
@@ -63,9 +65,8 @@
         <a href="mailto:javier.ochando.sanchez@gmail.com" class="button contact">Email me</a>
       </div>
 
-      <div>
+      <div class="icons">
         <ul>
-
           <li><a href="https://www.instagram.com/jackjuliett/" target="_blank"><svg enable-background="new 0 0 128 128" id="Social_Icons" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g id="_x37__stroke">
