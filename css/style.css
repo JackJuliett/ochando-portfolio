@@ -54,7 +54,7 @@ img {
 }
 
 a {
-  color: #0031FF;
+  color: #36FF87;
     /* No underlining */
 }
 
@@ -100,9 +100,9 @@ a:active {
 
 .button.contact {
   background-color: transparent;
-  color: #0D1B2B !important;
+  color: white !important;
   text-transform: uppercase;
-  border: 2px solid #0D1B2B;
+  border: 2px solid white;
 }
 
 .button.contact:hover {
