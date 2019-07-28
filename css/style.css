@@ -269,6 +269,10 @@ Medium devices (640px and larger)
     width: 50%;
   }
 
+  .col-md-4 {
+    width: 25%;
+  }
+
   #about-page h3 {
     margin-top: 0;
   }
