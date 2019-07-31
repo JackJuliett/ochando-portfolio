@@ -3,24 +3,29 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Ochando About</title>
+  <title>Ochando Inktank</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/0dd637a243.js"></script>
 </head>
 
-<body id="about-page">
+<body>
   <header>
     <div class="container">
-      <a href="index.html"><img class="logo" src="img/ochando_logo.svg" alt="Ochando"></a>
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img class="logo" src="img/ochando_logo.svg" alt="Ochando"></a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars"></i></a></li>
+
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -160,8 +165,11 @@
   </footer>
 
 
-
-
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>

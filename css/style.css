@@ -20,6 +20,14 @@ body {
   color: #4a4a4a;
 }
 
+nav>ul>li {
+  display: inline-block;
+  min-width: 641px
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 footer {
   background-color: #4a4a4a;
   color: white;
@@ -122,11 +130,25 @@ a:active {
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-nav>ul>li {
-  display: inline-block;
+.navtoggle.responsive li  {
+  display: block;
 }
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
 
 nav>ul>li>a {
   padding: 0 15px;
@@ -160,15 +182,14 @@ ol {
 
 header {
   background-color: white;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   box-shadow: 3px 3px 5px 0px rgba(128, 123, 125, 0.4);
   position: fixed;
   width: 100%;
 }
 
 main {
-  padding-top: 99px;
+  padding-top: 56px;
 }
 
 #hero {
@@ -255,6 +276,11 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
+  nav>ul>li {
+    display: inline-block;
+    min-width: 641px
+  }
+
   nav {
     width: auto;
     float: right;
@@ -310,7 +336,19 @@ Large devices (1024px or larger)
   nav>ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 1em 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  min-width: 641px;
+}
+
+
+.navtoggle li:last-child {
+  display: none;
+}
+    min-width: 641px
   }
 
   #hero span {
