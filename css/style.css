@@ -25,6 +25,16 @@ footer {
   color: white;
 }
 
+footer h2 {
+  margin-top:0;
+  padding-top: 1em;
+  text-align: center;
+}
+
+footer .button{
+  margin: 2em 0;
+}
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
@@ -273,6 +283,10 @@ Medium devices (640px and larger)
     width: 25%;
   }
 
+  .col-md-12 {
+    width: 100%;
+  }
+
   #about-page h3 {
     margin-top: 0;
   }
@@ -311,9 +325,17 @@ Large devices (1024px or larger)
     width: 41.66%;
   }
 
+  .story {
+    padding-right: 60px;
+  }
+
   .container {
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .myphoto img {
+    max-width: 600px;
   }
 
   #about-page h3 {
