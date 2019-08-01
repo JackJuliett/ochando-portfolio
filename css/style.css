@@ -336,7 +336,7 @@ Large devices (1024px or larger)
   nav>ul {
     list-style-type: none;
     padding: 0;
-    margin: 1em 0;
+    margin:  0;
   }
 
   .navtoggle li:not(:last-child) {
