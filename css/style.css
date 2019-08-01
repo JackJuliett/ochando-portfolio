@@ -22,7 +22,7 @@ body {
 
 nav>ul>li {
   display: inline-block;
-  min-width: 641px
+
 }
 .navtoggle li:not(:last-child) {
   display: none;
@@ -278,7 +278,7 @@ Medium devices (640px and larger)
 
   nav>ul>li {
     display: inline-block;
-    min-width: 641px
+
   }
 
   nav {
@@ -341,15 +341,13 @@ Large devices (1024px or larger)
 
   .navtoggle li:not(:last-child) {
   display: inline-block;
-  min-width: 641px;
+
 }
 
 
 .navtoggle li:last-child {
   display: none;
 }
-    min-width: 641px
-  }
 
   #hero span {
     display: block;
